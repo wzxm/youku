@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS3 Hover线条从中间展开</title>
+    <style type="text/css">
+    BODY {
+        background: #FAFAFA;
+        padding: 64px;
+    }
+    
+    #button {
+        width: 0px;
+        border-bottom: 2px solid #FF3366;
+        margin-left: 100px;
+        transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+    }
+    
+    #button:hover {
+        width: 200px;
+        margin-left: 0px;
+        padding-left: 100px;
+        width: 100px;
+        color: #FF3366
+    }
+    
+    #button:before {
+        content: "Hello World";
+        width: 200px;
+        margin-left: -100px;
+        background: #FFF;
+        line-height: 50px;
+        display: inline-block;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: rgba(33, 33, 33, 0.07) 0px 0px 12px, rgba(33, 33, 33, 0.12) 0px 3px 3px;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="button"></div>
+    <br />
+    <p style="color: #9E9E9E">
+        随便谢谢，展示思路，未经优化，献丑献丑
+    </p>
+</body>
+
+</html>
