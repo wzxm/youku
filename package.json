@@ -1,0 +1,22 @@
+{
+  "name": "youku",
+  "version": "1.0.0",
+  "description": "优酷首页布局",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzxm/youku.git"
+  },
+  "author": "wangzhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzxm/youku/issues"
+  },
+  "homepage": "https://github.com/wzxm/youku#readme",
+  "devDependencies": {
+    "ftp": "^0.3.10"
+  }
+}
